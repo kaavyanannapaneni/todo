@@ -4,8 +4,7 @@ import React, { useState } from "react";
 const page = () => {
   const [task, setTask] = useState("");
   const [multipleTasks, setMultipleTasks] = useState([]);
-  const [error, setError] = useState("");
-
+  
   const submitHandler = (e) => {
     e.preventDefault();
 
